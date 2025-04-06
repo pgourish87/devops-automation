@@ -11,6 +11,7 @@ public class DockerJenkinsIntegrationApplication {
 
 	@GetMapping
 	public String message() {
+		System.out.println("Tetsing Jenkinf pipeline");
 		return "Welcome to Jenkins";
 	}
 
